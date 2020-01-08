@@ -1,1 +1,25 @@
 .wrapper
+  .header
+    .header__left
+      よこい
+    .header__center
+      %li.list 
+        = link_to lunch_web_index_path do
+          昼定食
+      %li.list 夜のコース
+      %li.list 逸品
+      %li.list おせち
+    .header__right
+      %li.list
+        = link_to new_review_path do
+          review
+  .body
+  .footer
+    .footer__left
+      .footer__left__name
+        レビュー
+      .footer__left__review-box
+        .footer__left__review-box__content
+          .footer__left__review-box__content__title
+            題名
+    .footer__right

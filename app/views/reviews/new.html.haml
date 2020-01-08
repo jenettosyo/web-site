@@ -1,0 +1,20 @@
+.wrapper
+  = form_with model: @comment, url: reviews_path, method: :post, local: true do |f|
+    .review__name
+      入力欄
+    .review-content
+      .review-content__title
+        題名
+      = f.text_field :title, autocomplete: "title", class:"title-box"
+      .review-content__title
+        感想
+      = f.text_area :title, autocomplete: "text", class:"text-box"
+      .review-content__year__first
+        .review-content__year__first__second
+          = f.text_field :year, autocomplete: "year", class:"year-box"
+          %p.text 年
+          = f.text_field :month, autocomplete: "month", class:"month-day-box"
+          %p.text 月
+          = f.text_field :day, autocomplete: "day", class:"month-day-box"
+          %p.text 日
+      = f.submit "投稿する", class: "submit"
