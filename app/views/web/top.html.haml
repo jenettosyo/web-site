@@ -20,6 +20,15 @@
         レビュー
       .footer__left__review-box
         .footer__left__review-box__content
-          .footer__left__review-box__content__title
-            題名
+          - @comments.each do |comment|
+            .footer__left__review-box__content__title
+              %span 題名
+              =comment.title
+            .footer__left__review-box__content__text
+              %p コメント
+              =comment.text
+            .footer__left__review-box__content__date
+              %span 日付け
+              %span #{("#{comment.year}" + "/" + "#{comment.month}" + "/" + "#{comment.day}")}
+
     .footer__right
