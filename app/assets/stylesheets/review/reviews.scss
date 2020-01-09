@@ -1,0 +1,89 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom right, black, rgba(41, 40, 40, 0.856));
+
+  .review__name{
+    color: white;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 150px;
+    font-size: 30px;
+  }
+
+
+  .review-content{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+
+    &__title{
+      width: 100px;
+      height: 50px;
+      color: white;
+      font-size: 30px;
+    }
+
+
+      .title-box{
+        width: 100%;
+        height: 60px;
+        color: black;
+        font-size: 35px;
+        border-radius: 4px;
+      }
+
+      .text-box{
+        width: 100%;
+        height: 400px;
+        background-color: #fff;
+        font-size: 30px;
+        border-radius: 4px;
+        color: black;
+      }
+
+    &__year__first{
+      width: 100%;
+      height: 60px;
+
+      &__second{
+        display: block;
+        text-align: center;
+      
+
+        .year-box{
+          width: 110px;
+          height: 30px;
+          margin-top: 10px;
+          border-radius: 4px;
+        }
+
+        .text{
+          display: inline-block;
+          color: white;
+          margin: 0 10px 0 10px;
+        }
+
+        .month-day-box{
+          width: 80px;
+          height: 30px;
+          margin-top: 10px;
+          border-radius: 4px;
+        }
+      }
+    }
+    
+    .submit{
+      width: 300px;
+      height: 50px;
+      background-color: blue;
+      display: block;
+      margin: 0 auto;
+      border: none;
+      border-radius: 4px;
+      font-size: 30px;
+    }
+  }
+}
