@@ -5,4 +5,7 @@ class WebController < ApplicationController
 
   def lunch
   end
+
+  def oseti
+  end
 end

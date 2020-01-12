@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   resources :web do
     collection do
       get "lunch"
+      get "oseti"
     end
   end
 
