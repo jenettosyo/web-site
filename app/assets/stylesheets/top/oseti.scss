@@ -8,15 +8,8 @@
     background-size: cover;
     width: 100vw;
     height: 900px;
-
-    @keyframes fadeIn {
-      0% {
-          opacity:0;
-      }
-      100% {
-          opacity:1;
-      }
-  }
+    animation-name: fadeIn;
+    animation-duration: 3s;
 
     p{
       color: white;
@@ -37,6 +30,10 @@
     color: white;
     display: flex;
     font-family: 'Kaiti SC',sans-serif;
+
+    .oseti-body:hover{
+      opacity: 0.3;
+    }
 
     &__left{
       height: 500px;

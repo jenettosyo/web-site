@@ -1,0 +1,17 @@
+@keyframes fadeIn {
+  0% {
+      opacity:0;
+  }
+  100% {
+      opacity:1;
+  }
+}
+
+@keyframes box {
+  0% {
+    width: 500px;
+  }
+  100% {
+    background-color: chocolate;
+  }
+}

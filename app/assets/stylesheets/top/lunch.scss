@@ -1,0 +1,35 @@
+.maru{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  color: blue;
+  font-size: 30px;
+
+  p:hover{
+    transform: translateX(300px);
+    transition: 3s;
+  }
+}
+
+
+.box{
+  width: 30px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  writing-mode: vertical-lr;
+  transition: 1s;
+  
+}
+.box:hover{
+  width: 500px;
+  background-color: chocolate;
+  font-size: 30px;
+  text-align: center;
+  writing-mode: horizontal-tb; 
+  line-height: 100px;
+}
