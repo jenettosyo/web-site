@@ -1,6 +1,6 @@
 $(function(){
   function animation(){
-    $('.oseti').each(function(){
+    $('.lunch-content-box,.lunch-contents,.oseti,.footer-information,.footer').each(function(){
       //ターゲットの位置を取得
       var target = $(this).offset().top;
       //スクロール量を取得
@@ -10,7 +10,7 @@ $(function(){
       //ターゲットまでスクロールするとフェードインする
       if (scroll > target - windowHeight){
         $(this).css('opacity','1');
-        $(this).css('transform','translateX(0)');
+        $(this).css('transform','translateY(0)','translateX(0)');
       }
     });
   }
