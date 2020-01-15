@@ -7,6 +7,9 @@
   background-image: url(footer.jpg);
   background-size: cover;
   background-position: center;
+  opacity : 0;
+  transform: translateY(50px);
+  transition: 1s;
 
   &__box{
     width: 100%;

@@ -87,6 +87,9 @@
   width: 100%;
   background: linear-gradient(to bottom right, black, rgba(41, 40, 40, 0.856));
   display: flex;
+  opacity : 0;
+  transform: translateY(50px);
+  transition: 1s;
 
   &__left{
     height: 100%;
