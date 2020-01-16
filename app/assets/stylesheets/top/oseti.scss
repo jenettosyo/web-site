@@ -4,7 +4,7 @@
 
 
   .oseti-top{
-    background-image: url(oseti.jpg);
+    background-image: url(/images/oseti.jpg);
     background-size: cover;
     width: 100vw;
     height: 900px;
@@ -38,7 +38,7 @@
     &__left{
       height: 500px;
       width: 600px;
-      background-image: url(oseti3.jpg);
+      background-image: url(/images/oseti3.jpg);
       background-size: cover;
       opacity : 0;
       transform: translateX(-100px);
