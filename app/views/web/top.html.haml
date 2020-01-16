@@ -5,7 +5,7 @@
     .header__center
       %li.list 
         = link_to lunch_web_index_path do
-          昼定食
+          弁当
       %li.list 夜のコース
       %li.list 昼定食
       %li.list 
@@ -33,4 +33,5 @@
               %span 日付け
               %span #{("#{comment.year}" + "/" + "#{comment.month}" + "/" + "#{comment.day}")}
     .footer__right
+      %iframe{:height => "596", :src => "https://www.google.com/maps/d/embed?mid=14iTtScIDOdEvJlsX3uhIqWNeHqUrn4Ge", :width => "720"}
   = render "web/footer"
