@@ -1,6 +1,6 @@
 $(function(){
   function animation(){
-    $('.lunch-content-box,.lunch-contents,.oseti,.footer-information,.footer').each(function(){
+    $('.lunchbox-content-box,.lunchbox-contents,.oseti,.footer-information,.footer').each(function(){
       //ターゲットの位置を取得
       var target = $(this).offset().top;
       //スクロール量を取得

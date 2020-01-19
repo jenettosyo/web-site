@@ -1,11 +1,14 @@
 class WebController < ApplicationController
   def top
-    @comments = Comment.all
+    @comments = Comment.all.order("created_at DESC")
   end
 
-  def lunch
+  def lunchbox
   end
 
   def oseti
+  end
+
+  def lunch
   end
 end

@@ -4,8 +4,9 @@ Rails.application.routes.draw do
   root to: 'web#top'
   resources :web do
     collection do
-      get "lunch"
+      get "lunchbox"
       get "oseti"
+      get "lunch"
     end
   end
 
