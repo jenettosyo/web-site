@@ -11,4 +11,7 @@ class WebController < ApplicationController
 
   def lunch
   end
+
+  def dinner
+  end
 end

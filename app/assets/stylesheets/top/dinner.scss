@@ -1,0 +1,19 @@
+.wrapper{
+  display: block;
+  box-sizing: border-box;
+
+  .dinnertop{
+    background-image: image-url("/images/dinnertop.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 950px;
+
+    .dinnertop-text{
+      font-size: 100px;
+      font-family: 'Kaiti SC',sans-serif;
+      text-align: center;
+      line-height: 950px;
+      color: white;
+    }
+  }
+}

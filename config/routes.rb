@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       get "lunchbox"
       get "oseti"
       get "lunch"
+      get "dinner"
     end
   end
 
